@@ -54,20 +54,23 @@ module.exports = {
         title: '生活点滴',
         path: '/life_detail/template',
         collapsable: false, // 不折叠
-        children: [{ title: 'life_one', path: '/life_detail/template.md' }]
+        children: [
+          { title: 'life_one', path: '/life_detail/template.md' },
+          { title: '了解Flutter', path: '/life_detail/了解Flutter.md' }
+        ]
       },
       {
         title: '自娱自乐',
         path: '/play/template',
         collapsable: false, // 不折叠
         children: [{ title: 'play_one', path: '/play/template.md' }]
-      },
-      {
-        title: '思考与感悟',
-        path: '/think_feel/template',
-        collapsable: false, // 不折叠
-        children: [{ title: 'think_one', path: '/think_feel/template.md' }]
       }
+      // {
+      //   title: '思考与感悟',
+      //   path: '/think_feel/template',
+      //   collapsable: false, // 不折叠
+      //   children: [{ title: 'think_one', path: '/think_feel/template.md' }]
+      // }
     ]
   }
 }
