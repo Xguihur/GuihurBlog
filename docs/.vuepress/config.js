@@ -1,12 +1,28 @@
 module.exports = {
   title: 'Guihur Blog',
   description: '我的日常个人博客',
+  theme: 'reco',
+  base: '/GuihurBlog/',
+  locales: {
+    '/': {
+      lang: 'zh-CN'
+    }
+  },
   themeConfig: {
     logo: '/logo1.png',
     // displayAllHeaders: true,把所有层级的目录都展开
     // sidebar: 'auto', //更新文档的标题在浏览器中显示
-    lastUpdated: 'Last Updated',
+    lastUpdated: '上次更新',
     smoothScroll: true,
+    subSidebar: 'auto',
+    // --- 仓库
+    repo: 'https://github.com/Xguihur/GuihurBlog.git',
+    repoLabel: '查看源码',
+    // docsDir: 'docs', // 假如文档不是放在仓库的根目录下：
+    editLinks: true,
+    // 默认为 "Edit this page"
+    editLinkText: '帮助我们改善此页面！',
+    // ---
     nav: [
       { text: '首页', link: '/' },
       {
