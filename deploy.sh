@@ -20,6 +20,5 @@ git commit -m 'deploy'
 echo "正在推送到远程仓库：https://github.com/Xguihur/GuihurBlog.git master:gh-pages"
 # git push -f https://github.com/Xguihur/GuihurBlog.git master:gh-pages
 git push -f git@github.com:Xguihur/GuihurBlog.git master:gh-pages # 使用 ssh 推送终于成功了，为什么 https 无法成功呢？这是一个需要去研究的问题
-# git push -f https://Xguihur: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@github.com/Xguihur/GuihurBlog.git master:blog
 
 cd -
