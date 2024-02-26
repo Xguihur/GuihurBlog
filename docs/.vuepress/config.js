@@ -47,9 +47,11 @@ module.exports = {
         collapsable: false, // 不折叠
         children: [
           { title: 'One', path: '/technology_sharing/First' },
-          { title: 'Two', path: '/technology_sharing/Second' },
+          { title: 'Blog踩坑日志', path: '/technology_sharing/blog踩坑日志.md' },
           { title: '了解Flutter', path: '/technology_sharing/了解Flutter.md' },
-          { title: 'TOTP原理解析', path: '/technology_sharing/TOTP原理解析.md' }
+          { title: 'TOTP原理解析', path: '/technology_sharing/TOTP原理解析.md' },
+          { title: 'Vue响应式原理解析', path: '/technology_sharing/Vue响应式原理解析.md' },
+          { title: '盲打速成', path: '/technology_sharing/盲打速成.md' }
         ]
       },
       {
@@ -64,7 +66,8 @@ module.exports = {
         collapsable: false, // 不折叠
         children: [
           { title: 'play_one', path: '/play/template.md' },
-          { title: '深圳之旅', path: '/play/travel_sz.md' }
+          { title: '深圳之旅', path: '/play/travel_sz.md' },
+          { title: '太刀修炼', path: '/play/太刀修炼.md' }
         ]
       }
       // {

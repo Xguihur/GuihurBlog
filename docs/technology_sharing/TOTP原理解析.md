@@ -4,6 +4,7 @@
 
 **2FA 的介绍：**
 [什么是双因素身份认证 (2FA)？ | Fortinet](https://www.fortinet.com/cn/resources/cyberglossary/two-factor-authentication)
+
 **Github TOTP 原理：**
 [GitHub双重认证（2FA）实现原理浅析 - 掘金](https://juejin.cn/post/7299743820434112539)
 
@@ -126,7 +127,7 @@ console.log(generateToken(secret))
 
 ### 总结
 
-- 俊杰给出了两种方法, 第一种是使用第三方库 'node-2fa' 来实现, 第二种是自己使用 代码 来实现
+- 俊杰给出了两种方法, 第一种是使用第三方库 `node-2fa`  来实现, 第二种是自己使用 代码 来实现
 - 主要学习的是第二种方法中用到的技术
-  - 位运算实现 intToBytes 、hexToBytes 、最后生成结果时用到的偏移量计算以及值获取 都涉及到了`二进制位运算`
+  - 位运算实现 **intToBytes** **、hexToBytes** 、最后生成结果时用到的**偏移量计算**以及**值获取** 都涉及到了`二进制位运算`
   - 其中还有 number 转 string 的 快捷方法学习 、NodeJS 自带的类调用-BUffer 等
