@@ -12,5 +12,8 @@
   "devDependencies": {
     "vuepress": "^1.9.10",
     "vuepress-theme-reco": "^1.6.17"
+  },
+  "dependencies": {
+    "pnpm": "^8.15.4"
   }
 }

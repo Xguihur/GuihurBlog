@@ -2,7 +2,8 @@ module.exports = {
   title: 'Guihur Blog',
   description: '我的日常个人博客',
   theme: 'reco',
-  base: '/GuihurBlog/',
+  // base: '/GuihurBlog/',
+  base: '/',
   locales: {
     '/': {
       lang: 'zh-CN'
@@ -51,11 +52,15 @@ module.exports = {
           { title: '了解Flutter', path: '/technology_sharing/了解Flutter.md' },
           { title: 'TOTP原理解析', path: '/technology_sharing/TOTP原理解析.md' },
           { title: 'Vue响应式原理解析', path: '/technology_sharing/Vue响应式原理解析.md' },
-          { title: '盲打速成', path: '/technology_sharing/盲打速成.md' }
+          { title: '盲打速成', path: '/technology_sharing/盲打速成.md' },
+          { title: '批量传图中实现同步上传', path: '/technology_sharing/批量上传图片取消并发.md' },
+          { title: '域名-备案-SSL申请经历', path: '/technology_sharing/域名备案申请.md' },
+          { title: 'Nginx探索之旅', path: '/technology_sharing/学习Nginx自己部署网页.md' },
+          { title: '博客自动化免密部署阿里云', path: '/technology_sharing/自动化打包博客并且免密部署阿里云.md' }
         ]
       },
       {
-        title: '生活点滴',
+        title: '文摘-语录-思考',
         path: '/life_detail/template',
         collapsable: false, // 不折叠
         children: [{ title: 'life_one', path: '/life_detail/template.md' }]

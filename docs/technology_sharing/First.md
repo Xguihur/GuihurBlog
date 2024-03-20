@@ -3,4 +3,4 @@ title: Hello World
 permalink: /hello-world
 ---
 
-Hello!
+Hello! This is my first blog!
