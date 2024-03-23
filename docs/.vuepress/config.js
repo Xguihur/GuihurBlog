@@ -9,8 +9,9 @@ module.exports = {
       lang: 'zh-CN'
     }
   },
+  head: [['link', { rel: 'icon', href: 'http://8.134.197.161:3000/api/images/blog/image-1711218398984.png' }]],
   themeConfig: {
-    logo: '/logo1.png',
+    logo: 'http://8.134.197.161:3000/api/images/blog/image-1711218398984.png',
     // displayAllHeaders: true,把所有层级的目录都展开
     // sidebar: 'auto', //更新文档的标题在浏览器中显示
     lastUpdated: '上次更新',
