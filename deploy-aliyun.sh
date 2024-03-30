@@ -9,10 +9,10 @@ npm run build
 echo "打包完成"
 
 # 进入生成的文件夹
-cd docs/.vuepress
+cd .vuepress
 
 echo "正在推送至阿里云服务器，请耐心等待"
-scp -r dist root@8.134.197.161:/www/wwwroot/www.guihurge.top
+scp -r dist root@www.guihurge.top:/www/wwwroot/www.guihurge.top
 echo "推送成功"
 
 cd -
