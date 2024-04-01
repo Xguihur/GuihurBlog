@@ -1,0 +1,4 @@
+/* 隐藏这个 vuepress 自带的页脚 */
+.footer-wrapper>span:first-child {
+  display: none !important;
+}

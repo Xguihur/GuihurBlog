@@ -31,8 +31,8 @@ blog:
 footer: # 底部模块的配置
   record: 粤ICP备2024216058号
   recordLink: https://beian.miit.gov.cn/
-  cyberSecurityRecord: 公安备案文案
-  cyberSecurityLink: 公安备案地址
+  cyberSecurityRecord: 粤公网安备44020402000314号
+  cyberSecurityLink: https://beian.mps.gov.cn/#/query/webSearch?code=44020402000314
   startYear: 2024
 isShowTitleInHome: true
 actionText: About
