@@ -5,9 +5,9 @@ categories:
  - other
 ---
 <!-- 这是一些标签，就是我想要的那种，在这学习一下了 -->
-![vuepress](https://img.shields.io/badge/vuepress-0.14.8-brightgreen.svg)
-![leancloud-storage](https://img.shields.io/badge/leancloud--storage-3.10.1-orange.svg)
-![valine](https://img.shields.io/badge/valine-1.3.4-blue.svg)
+![vuepress](https://img.shields.io/badge/vuepress-2.0.0--rc.0-brightgreen.svg)
+![vuepress-theme-reco](https://img.shields.io/badge/vuepress--theme--reco-2.0.0--rc.5-blue.svg)
+![comments](https://img.shields.io/badge/comments-disabled-lightgrey.svg)
 
 ::: tip 介绍
 1. 网站使用 vuepress 搭建，并且选择 vuepress-theme-reco 2.x 作为网站主题；<br>
@@ -23,9 +23,9 @@ categories:
 * [x] 对文章进行一下优化，适配这个主题的样式，同时美化一下文章，标题、注释、代码块之类的弄好一些
 * [x] 备案号配置好
 * [x] 自动化打包发布到云服务器
-* [ ] 文档的首页菜单有点问题，官网的菜单切换不会有两个固定着，看看是什么原因导致的
+* [x] 文档的首页菜单有点问题，官网的菜单切换不会有两个固定着
+* [x] 网站Logo 和 网站头像 同步一下，去设计一个图标
 * [ ] 折腾一下主题，弄得花里胡哨一些
-* [ ] 网站Logo 和 网站头像 同步一下，去设计一个图标
 * [ ] 评论之类的暂时还用不上，跳转到 github 编辑也还用不到，暂时不做
 * [ ] 添加一些小标签标识技术栈，或者一些小 Logo 丰富首页
 

@@ -21,7 +21,7 @@ export default defineUserConfig({
       "/docs/w3y/": [
         {
           text: "前端经验",
-          children: ["index.html", "Vue响应式原理解析.html", "批量上传图片取消并发.html", "了解Flutter.html"],
+          children: ["overview.html", "Vue响应式原理解析.html", "批量上传图片取消并发.html", "了解Flutter.html"],
         },
         {
           text: "后端探索",
@@ -51,7 +51,7 @@ export default defineUserConfig({
         text: "Docs",
         icon: "Account",
         children: [
-          { text: "Docs", link: "/docs/w3y/index.html" },
+          { text: "Docs", link: "/docs/w3y/overview.html" },
           { text: "Guide", link: "/blogs/other/guide.html" },
         ],
       },
