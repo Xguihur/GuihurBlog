@@ -150,6 +150,10 @@ tags:
 2. 修改 `title`、`date`、`tags`。
 3. 博客文章保留模板中的固定 `categories` 值。
 
+脚手架命令（推荐）：
+1. `npm run scaffold -- blog <life|thoughts|sports|meta> "<title>"`
+2. `npm run scaffold -- doc <tech|sports> <group> "<title>"`
+
 ---
 
 维护说明：
