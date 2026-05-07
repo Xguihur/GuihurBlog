@@ -1,6 +1,10 @@
 ---
-title: Nginx 探索 
+title: Nginx 探索
 date: 2024/03/30
+tags:
+ - Nginx
+ - 部署
+ - 运维
 ---
 
 # 学习 Nginx 自己配置网页

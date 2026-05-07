@@ -17,24 +17,35 @@ export default defineUserConfig({
     catalogTitle: "当前文章目录",
     // series 为原 sidebar
     series: {
-      "/docs/w3y/": [
+      "/docs/tech/": [
         {
-          text: "前端经验",
-          children: ["overview.html", "Vue响应式原理解析.html", "批量上传图片取消并发.html", "了解Flutter.html"],
+          text: "文档总览",
+          children: ["overview.html"],
         },
         {
-          text: "云服务器",
-          children: ["blog踩坑日志.html", "域名备案申请.html", "自动化打包博客并且免密部署阿里云.html", "学习Nginx自己部署网页.html", "域名解析以及备案号悬挂.html"],
+          text: "Frontend",
+          children: [
+            "frontend/Vue响应式原理解析.html",
+            "frontend/批量上传图片取消并发.html",
+            "frontend/了解Flutter.html",
+          ],
+        },
+        {
+          text: "DevOps",
+          children: [
+            "devops/blog踩坑日志.html",
+            "devops/域名备案申请.html",
+            "devops/自动化打包博客并且免密部署阿里云.html",
+            "devops/学习Nginx自己部署网页.html",
+            "devops/域名解析以及备案号悬挂.html",
+          ],
         },
         {
           text: "技术杂货",
-          children: ["盲打速成.html", "TOTP原理解析.html"],
-        },
-      ],
-      "/docs/tech/": [
-        {
-          text: "技术文档",
-          children: ["overview.html"],
+          children: [
+            "misc/TOTP原理解析.html",
+            "misc/盲打速成.html",
+          ],
         },
       ],
       "/docs/sports/": [
@@ -58,7 +69,6 @@ export default defineUserConfig({
         text: "Docs",
         icon: "Account",
         children: [
-          { text: "W3Y Docs", link: "/docs/w3y/overview.html" },
           { text: "Tech Docs", link: "/docs/tech/overview.html" },
           { text: "Sports Docs", link: "/docs/sports/overview.html" },
           { text: "Guide", link: "/blogs/meta/2024/033001.html" },

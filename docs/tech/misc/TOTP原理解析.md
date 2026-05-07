@@ -1,6 +1,10 @@
 ---
 title: TOTP 原理解析
 date: 2024/03/30
+tags:
+ - 安全
+ - 2FA
+ - TOTP
 ---
 
 ## 资源

@@ -1,6 +1,10 @@
 ---
 title: 了解 Flutter.md
 date: 2023/11/20
+tags:
+ - Flutter
+ - 移动端
+ - 跨端
 ---
 
 # 通过结构法了解 Flutter，为后来开发做尝试
