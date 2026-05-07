@@ -1,5 +1,4 @@
 import { defineUserConfig } from "vuepress";
-import type { DefaultThemeOptions } from "vuepress";
 import recoTheme from "vuepress-theme-reco";
 
 export default defineUserConfig({
@@ -24,16 +23,24 @@ export default defineUserConfig({
           children: ["overview.html", "Vue响应式原理解析.html", "批量上传图片取消并发.html", "了解Flutter.html"],
         },
         {
-          text: "后端探索",
-          children: [],
-        },
-        {
           text: "云服务器",
           children: ["blog踩坑日志.html", "域名备案申请.html", "自动化打包博客并且免密部署阿里云.html", "学习Nginx自己部署网页.html", "域名解析以及备案号悬挂.html"],
         },
         {
           text: "技术杂货",
           children: ["盲打速成.html", "TOTP原理解析.html"],
+        },
+      ],
+      "/docs/tech/": [
+        {
+          text: "技术文档",
+          children: ["overview.html"],
+        },
+      ],
+      "/docs/sports/": [
+        {
+          text: "运动文档",
+          children: ["overview.html"],
         },
       ],
     },
@@ -51,7 +58,9 @@ export default defineUserConfig({
         text: "Docs",
         icon: "Account",
         children: [
-          { text: "Docs", link: "/docs/w3y/overview.html" },
+          { text: "W3Y Docs", link: "/docs/w3y/overview.html" },
+          { text: "Tech Docs", link: "/docs/tech/overview.html" },
+          { text: "Sports Docs", link: "/docs/sports/overview.html" },
           { text: "Guide", link: "/blogs/meta/2024/033001.html" },
         ],
       },
