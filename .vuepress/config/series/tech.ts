@@ -17,6 +17,7 @@ const techSeries = [
       "/docs/tech/backend/DTO、Entity、Mapper与VO的区别.html",
       "/docs/tech/backend/MySQL与MariaDB关系.html",
       "/docs/tech/backend/Spring接口实现类与Bean注入关系.html",
+      "/docs/tech/backend/前后端接口参数与返回值交互详解.html",
     ],
   },
   {
