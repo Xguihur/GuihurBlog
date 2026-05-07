@@ -6,6 +6,7 @@ const techSeries = [
   {
     text: "Frontend",
     children: [
+      "/docs/tech/frontend/Vite与Rollup的Tree-Shaking机制.html",
       "/docs/tech/frontend/Vue响应式原理解析.html",
       "/docs/tech/frontend/批量上传图片取消并发.html",
       "/docs/tech/frontend/了解Flutter.html",
