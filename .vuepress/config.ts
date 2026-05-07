@@ -1,5 +1,7 @@
 import { defineUserConfig } from "vuepress";
 import recoTheme from "vuepress-theme-reco";
+import navbar from "./config/navbar";
+import series from "./config/series";
 
 export default defineUserConfig({
   title: "Guihur Blog",
@@ -16,73 +18,8 @@ export default defineUserConfig({
     lastUpdatedText: "上次更新",
     catalogTitle: "当前文章目录",
     // series 为原 sidebar
-    series: {
-      "/docs/tech/": [
-        {
-          text: "文档总览",
-          children: ["overview.html"],
-        },
-        {
-          text: "Frontend",
-          children: [
-            "frontend/Vue响应式原理解析.html",
-            "frontend/批量上传图片取消并发.html",
-            "frontend/了解Flutter.html",
-          ],
-        },
-        {
-          text: "DevOps",
-          children: [
-            "devops/blog踩坑日志.html",
-            "devops/域名备案申请.html",
-            "devops/自动化打包博客并且免密部署阿里云.html",
-            "devops/学习Nginx自己部署网页.html",
-            "devops/域名解析以及备案号悬挂.html",
-          ],
-        },
-        {
-          text: "技术杂货",
-          children: [
-            "misc/TOTP原理解析.html",
-            "misc/盲打速成.html",
-          ],
-        },
-      ],
-      "/docs/sports/": [
-        {
-          text: "运动文档",
-          children: ["overview.html"],
-        },
-      ],
-    },
-    navbar: [
-      { text: "Home", link: "/", icon: "Home" },
-      {
-        text: "Blogs",
-        icon: "Blog",
-        children: [
-          { text: "Posts", link: "/posts" },
-          { text: "Timeline", link: "/timeline" },
-        ],
-      },
-      {
-        text: "Docs",
-        icon: "Account",
-        children: [
-          { text: "Tech Docs", link: "/docs/tech/overview.html" },
-          { text: "Sports Docs", link: "/docs/sports/overview.html" },
-          { text: "Guide", link: "/blogs/meta/2024/033001.html" },
-        ],
-      },
-      {
-        text: "Friendly Links",
-        icon: "Link",
-        children: [
-          { text: "Github", link: "https://github.com/Xguihur" },
-          { text: "语雀", link: "https://www.yuque.com/luffy-j7ldi" },
-          { text: "算法博客", link: "http://47.120.44.145:3000/#/" },
-        ],
-      },
+    series,
+    navbar,
 
       // { text: "Categories", link: "/categories/reco/1/" },
       // { text: "Tags", link: "/tags/tag1/1/" },
@@ -93,7 +30,6 @@ export default defineUserConfig({
       //     { text: "vuepress-theme-reco", link: "/blogs/meta/2024/033001" },
       //   ],
       // },
-    ],
     // bulletin: {
     //   body: [
     //     {
