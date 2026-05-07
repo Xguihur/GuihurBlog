@@ -14,7 +14,9 @@ const techSeries = [
   {
     text: "Backend",
     children: [
+      "/docs/tech/backend/DTO、Entity、Mapper与VO的区别.html",
       "/docs/tech/backend/MySQL与MariaDB关系.html",
+      "/docs/tech/backend/Spring接口实现类与Bean注入关系.html",
     ],
   },
   {
@@ -24,6 +26,7 @@ const techSeries = [
       "/docs/tech/devops/Verdaccio私服搭建.html",
       "/docs/tech/devops/域名备案申请.html",
       "/docs/tech/devops/定时任务时间设置规范.html",
+      "/docs/tech/devops/压缩与未压缩日志查看命令.html",
       "/docs/tech/devops/自动化打包博客并且免密部署阿里云.html",
       "/docs/tech/devops/学习Nginx自己部署网页.html",
       "/docs/tech/devops/域名解析以及备案号悬挂.html",
