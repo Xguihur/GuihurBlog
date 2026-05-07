@@ -22,6 +22,7 @@ const techSeries = [
     children: [
       "/docs/tech/devops/blog踩坑日志.html",
       "/docs/tech/devops/域名备案申请.html",
+      "/docs/tech/devops/定时任务时间设置规范.html",
       "/docs/tech/devops/自动化打包博客并且免密部署阿里云.html",
       "/docs/tech/devops/学习Nginx自己部署网页.html",
       "/docs/tech/devops/域名解析以及备案号悬挂.html",
