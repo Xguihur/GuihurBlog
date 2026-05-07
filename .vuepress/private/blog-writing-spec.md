@@ -132,6 +132,24 @@ tags:
 4. `title`、`date` 是否完整。
 5. 导航或 `series` 是否需要同步更新。
 
+## 9. 模板位置（内部）
+
+写作模板存放在：
+`/.vuepress/private/templates/`
+
+包含：
+1. `blog-life.md`
+2. `blog-thoughts.md`
+3. `blog-sports.md`
+4. `blog-meta.md`
+5. `doc-tech.md`
+6. `doc-sports.md`
+
+使用方式：
+1. 复制对应模板到目标目录。
+2. 修改 `title`、`date`、`tags`。
+3. 博客文章保留模板中的固定 `categories` 值。
+
 ---
 
 维护说明：

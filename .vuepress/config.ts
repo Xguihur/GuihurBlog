@@ -52,7 +52,7 @@ export default defineUserConfig({
         icon: "Account",
         children: [
           { text: "Docs", link: "/docs/w3y/overview.html" },
-          { text: "Guide", link: "/blogs/other/guide.html" },
+          { text: "Guide", link: "/blogs/meta/2024/033001.html" },
         ],
       },
       {
@@ -71,7 +71,7 @@ export default defineUserConfig({
       //   text: "Docs",
       //   children: [
       //     { text: "vuepress-reco", link: "/docs/theme-reco/theme" },
-      //     { text: "vuepress-theme-reco", link: "/blogs/other/guide" },
+      //     { text: "vuepress-theme-reco", link: "/blogs/meta/2024/033001" },
       //   ],
       // },
     ],

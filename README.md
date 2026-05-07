@@ -13,8 +13,8 @@ bannerBrand:
   description: ~~ 记录学习成长，分享技术心得 ~~
   tagline: 本人是一名小小前端开发工程师，主要的技术栈是 vue2、vue3。目前打算做一个 React 相关的项目学习这个框架，还有小程序、tora 等移动端的内容也在日程中。请多指教！
   buttons:
-    - { text: 技术文章, link: '/docs/w3y/index.html' }
-    - { text: 网站历程, link: '/blogs/other/guide.html' }
+    - { text: 技术文章, link: '/docs/w3y/overview.html' }
+    - { text: 网站历程, link: '/blogs/meta/2024/033001.html' }
     - { text: 算法博客, link: 'http://47.120.44.145:3000/#/', type: 'plain' }
   # socialLinks:
   #   - { icon: 'LogoGithub', link: 'https://github.com/Xguihur' }
@@ -43,4 +43,3 @@ actionLink: /views/other/about
 1. 目前我的站点分为两种文章：
    1. 第一种是技术文章，在 Docs 中展示，以系列为区分
    2. 第二章是博客文章，在 Blogs 中展示，以时间线为区分，同时也会带有对应的 Tags
-
