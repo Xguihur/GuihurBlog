@@ -10,8 +10,8 @@ bannerBrand:
   bgImage: '/bg.svg'
   # bgImage: '/luffy.jpg'
   title: Guihur Blog
-  description: ~~ 记录学习成长，分享技术心得 ~~
-  tagline: 本人是一名小小前端开发工程师，主要的技术栈是 vue2、vue3。目前打算做一个 React 相关的项目学习这个框架，还有小程序、tora 等移动端的内容也在日程中。请多指教！
+  description: ~~ 前端 × 全栈 × AI，持续构建与复盘 ~~
+  tagline: 聚焦前端与全栈落地，结合 AI 进行 vibe coding，把想法更快变成可运行产品。这里记录真实项目实践、工程化方案与成长复盘。
   buttons:
     - { text: 技术文章, link: '/docs/tech/overview.html' }
     - { text: 网站历程, link: '/blogs/meta/2024/033001.html' }
@@ -19,12 +19,12 @@ bannerBrand:
   # socialLinks:
   #   - { icon: 'LogoGithub', link: 'https://github.com/Xguihur' }
 features:
-    - title: 初学前端
-      details: 为了加入工作室每天都在看视频学基础。加入工作室后和伙伴们一块儿学习一块儿做项目一块儿玩，度过了一段非常开心的大学时光。
-    - title: 初入职场
-      details: 实习也快一年了，见识了不同的公司有不同的工作模式。也认识到了自己与5-10年的程序员的差距，还有更多需要学习的地方，加油。
-    - title: 未来寄语
-      details: 希望能成为值得被信赖的程序员，自驱力再强一些，实践更多一些。也更希望能够真实地去感受自然，与家人朋友多聚聚，享受生活。
+    - title: 前端工程化
+      details: 持续沉淀 Vue / React 方向的工程实践，关注性能优化、可维护性与团队协作效率。
+    - title: 全栈落地
+      details: 从接口设计到部署运维，打通前后端链路，优先交付真实可用、可迭代的产品能力。
+    - title: AI Vibe Coding
+      details: 用 AI 加速调研、原型与实现，把灵感快速推进到可运行版本，再通过复盘持续打磨。
 blog:
   socialLinks:
     - { icon: 'LogoGithub', link: 'https://github.com/Xguihur' }
