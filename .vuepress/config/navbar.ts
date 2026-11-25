@@ -1,25 +1,23 @@
 const navbar = [
-  { text: "Home", link: "/", icon: "Home" },
+  { text: "首页", link: "/" },
   {
-    text: "Blogs",
-    icon: "Blog",
+    text: "博客",
     children: [
-      { text: "Posts", link: "/posts" },
-      { text: "Timeline", link: "/timeline" },
+      { text: "文章列表", link: "/posts" },
+      { text: "时间线", link: "/timeline" },
+      { text: "网站历程", link: "/blogs/meta/2024/033001.html" },
     ],
   },
   {
-    text: "Docs",
-    icon: "Account",
+    text: "知识库",
     children: [
-      { text: "Tech Docs", link: "/docs/tech/overview.html" },
-      { text: "Sports Docs", link: "/docs/sports/overview.html" },
-      { text: "Guide", link: "/blogs/meta/2024/033001.html" },
+      { text: "技术文章", link: "/docs/tech/overview.html" },
+      { text: "运动文档（筹备中）", link: "/docs/sports/overview.html" },
     ],
   },
+  { text: "每日晨报", link: "/news/" },
   {
-    text: "Friendly Links",
-    icon: "Link",
+    text: "友链",
     children: [
       { text: "Github", link: "https://github.com/Xguihur" },
       { text: "语雀", link: "https://www.yuque.com/luffy-j7ldi" },

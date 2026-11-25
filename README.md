@@ -10,21 +10,21 @@ bannerBrand:
   bgImage: '/bg.svg'
   # bgImage: '/luffy.jpg'
   title: Guihur Blog
-  description: ~~ 前端 × 全栈 × AI，持续构建与复盘 ~~
-  tagline: 聚焦前端与全栈落地，结合 AI 进行 vibe coding，把想法更快变成可运行产品。这里记录真实项目实践、工程化方案与成长复盘。
+  description: ~~ 技术实践 × 生活记录 × 每日资讯 ~~
+  tagline: 记录 Vue、前后端接口、部署运维的学习与实践，也分享生活经历。AI 是持续关注的方向，相关资讯收录在每日晨报。
   buttons:
     - { text: 技术文章, link: '/docs/tech/overview.html' }
-    - { text: 网站历程, link: '/blogs/meta/2024/033001.html' }
-    - { text: 算法博客, link: 'http://47.120.44.145:3000/#/', type: 'plain' }
+    - { text: 每日晨报, link: '/news/' }
+    - { text: 生活博客, link: '/posts', type: 'plain' }
   # socialLinks:
   #   - { icon: 'LogoGithub', link: 'https://github.com/Xguihur' }
 features:
-    - title: 前端工程化
-      details: 持续沉淀 Vue / React 方向的工程实践，关注性能优化、可维护性与团队协作效率。
-    - title: 全栈落地
-      details: 从接口设计到部署运维，打通前后端链路，优先交付真实可用、可迭代的产品能力。
-    - title: AI Vibe Coding
-      details: 用 AI 加速调研、原型与实现，把灵感快速推进到可运行版本，再通过复盘持续打磨。
+    - title: 前端与后端
+      details: 从 Vue 响应式、构建优化到 Spring 注入和接口交互，整理学习笔记与项目问题。
+    - title: 部署与运维
+      details: 记录 Nginx 配置、域名备案、自动化部署及日志排查，保留实践过程与踩坑经验。
+    - title: 每日晨报
+      details: 按日期归档热点、AI 工作流、科技股、电车和运动资讯，附上来源与当季徒步路线。
 blog:
   socialLinks:
     - { icon: 'LogoGithub', link: 'https://github.com/Xguihur' }
@@ -39,7 +39,8 @@ actionText: About
 actionLink: /views/other/about
 ---
 
-## 说明
-1. 目前我的站点分为两种文章：
-   1. 第一种是技术文章，在 Docs 中展示，以系列为区分
-   2. 第二章是博客文章，在 Blogs 中展示，以时间线为区分，同时也会带有对应的 Tags
+## 从这里开始
+
+- **[技术文章](/docs/tech/overview.html)**：按前端、后端、部署与运维、技术杂项浏览 18 篇学习与实践笔记。
+- **[生活博客](/posts)**：旅行、求学与日常经历，可从[时间线](/timeline)回看；[网站历程](/blogs/meta/2024/033001.html)记录建站过程。
+- **[每日晨报](/news/)**：阅读热点与个人关注领域的资讯，按年、月、日查找往期内容。

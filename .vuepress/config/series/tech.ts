@@ -1,10 +1,10 @@
 const techSeries = [
   {
-    text: "文档总览",
+    text: "技术文章",
     children: ["/docs/tech/overview.html"],
   },
   {
-    text: "Frontend",
+    text: "前端",
     children: [
       "/docs/tech/frontend/Vite与Rollup的Tree-Shaking机制.html",
       "/docs/tech/frontend/Vue响应式原理解析.html",
@@ -13,7 +13,7 @@ const techSeries = [
     ],
   },
   {
-    text: "Backend",
+    text: "后端",
     children: [
       "/docs/tech/backend/DTO、Entity、Mapper与VO的区别.html",
       "/docs/tech/backend/MySQL与MariaDB关系.html",
@@ -22,7 +22,7 @@ const techSeries = [
     ],
   },
   {
-    text: "DevOps",
+    text: "部署与运维",
     children: [
       "/docs/tech/devops/blog踩坑日志.html",
       "/docs/tech/devops/Verdaccio私服搭建.html",
@@ -35,7 +35,7 @@ const techSeries = [
     ],
   },
   {
-    text: "技术杂货",
+    text: "技术杂项",
     children: [
       "/docs/tech/misc/TOTP原理解析.html",
       "/docs/tech/misc/盲打速成.html",
