@@ -1,10 +1,13 @@
 import { defineUserConfig } from "vuepress";
+import { fileURLToPath } from "node:url";
 import recoTheme from "vuepress-theme-reco";
 import navbar from "./config/navbar";
 import series from "./config/series";
 
 export default defineUserConfig({
   title: "Guihur Blog",
+  // Reco rc.5 uses legacy SSR markers; match the installed VuePress rc.0 renderer.
+  templateBuild: fileURLToPath(new URL("./templates/index.build.html", import.meta.url)),
   description: "Just playing around",
   head: [['link', { rel: 'icon', href: 'http://8.134.197.161:3000/api/images/blog/image-1711220980084.png' }]],
   theme: recoTheme({

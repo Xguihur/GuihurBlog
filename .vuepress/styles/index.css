@@ -2,3 +2,15 @@
 .footer-wrapper>span:first-child {
   display: none !important;
 }
+
+/* Keep Reco's heading spacing while clearing the 64px fixed navbar. */
+.theme-reco-default-content h3 {
+  margin-top: -4rem;
+  padding-top: 5rem;
+}
+
+/* Empty route anchors precede headings with a collapsed negative margin.
+   Align native hash jumps with the heading's box, as the catalog does. */
+.theme-reco-default-content a[id^="route-"] {
+  scroll-margin-top: 4rem;
+}

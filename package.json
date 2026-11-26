@@ -6,9 +6,9 @@
   "author": "reco_luan <recoluan@outlook.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "vuepress dev .",
-    "start": "vuepress dev .",
-    "build": "vuepress build .",
+    "dev": "vuepress dev . --temp .vuepress/.temp/dev --cache .vuepress/.cache/dev",
+    "start": "vuepress dev . --temp .vuepress/.temp/dev --cache .vuepress/.cache/dev",
+    "build": "vuepress build . --temp .vuepress/.temp/build --cache .vuepress/.cache/build",
     "scaffold": "bash ./scripts/scaffold-content.sh"
   },
   "dependencies": {
